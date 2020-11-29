@@ -11,7 +11,7 @@ from requests import get, put
 
 cid = ''
 secret = ''
-uri = 'https://example.com/callback/'
+uri = ''
 scope = 'user-library-read user-read-playback-state user-modify-playback-state user-read-currently-playing app-remote-control streaming'
 
 app = Flask(__name__)
